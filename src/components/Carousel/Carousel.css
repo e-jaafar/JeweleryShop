@@ -37,11 +37,82 @@ ul.thumbs.animated{
     margin-right: auto;
     text-align: center;
 }
-.h1Carousel{
+.h1Carousel {
     text-align: center;
     margin-bottom: 50px;
-
+    font-family: 'Cinzel', serif; /* Police élégante et distinctive */
+    font-size: 2.5em; /* Taille de police ajustée pour la plupart des écrans */
+    color: #444; /* Couleur de texte sobre et élégante */
+    letter-spacing: 1.5px; /* Espacement des lettres pour un effet raffiné */
+    text-transform: uppercase; /* Transformation en majuscules pour un effet chic */
+    position: relative; /* Nécessaire pour l'effet décoratif */
 }
+
+.h1Carousel::before,
+.h1Carousel::after {
+    content: '';
+    display: block;
+    width: 60px; /* Longueur de la ligne décorative */
+    height: 3px; /* Épaisseur de la ligne décorative */
+    background-color: #b29477; /* Couleur assortie à l'esthétique de la bijouterie */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.h1Carousel::before {
+    left: 0; /* Position à gauche */
+}
+
+.h1Carousel::after {
+    right: 0; /* Position à droite */
+}
+
+/* Styles pour les grands écrans (desktops) */
+@media (min-width: 992px) {
+    .h1Carousel {
+        font-size: 3em; /* Augmentation de la taille de police pour les grands écrans */
+    }
+
+    .h1Carousel::before,
+    .h1Carousel::after {
+        width: 80px; /* Augmentation de la longueur des lignes décoratives pour les grands écrans */
+    }
+}
+
+/* Styles pour les tablettes */
+@media (min-width: 768px) and (max-width: 991px) {
+    .h1Carousel {
+        font-size: 2.5em; 
+    }
+
+    .h1Carousel::before,
+    .h1Carousel::after {
+        width: 70px; 
+    }
+}
+
+/* Styles pour les petits écrans (mobiles) */
+@media (max-width: 767px) {
+    .h1Carousel {
+        font-size: 2em; /* Réduction de la taille de police pour les petits écrans */
+        padding: 0 10px; /* Ajout d'un padding pour donner plus d'espace sur les côtés */
+    }
+
+    .h1Carousel::before,
+    .h1Carousel::after {
+        width: 50px; /* Réduction de la longueur des lignes décoratives pour les petits écrans */
+    }
+
+    .h1Carousel::before {
+        left: -70px; /* Plus d'espace à gauche */
+    }
+
+    .h1Carousel::after {
+        right: -70px; /* Plus d'espace à droite */
+    }
+}
+
 .carousel .slide {
     display: inline-block;
     width: 25%; /* Ajustez la largeur pour le nombre d'images que vous voulez afficher */

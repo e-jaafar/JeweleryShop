@@ -1,6 +1,21 @@
-
-
-.h1Category{
-    text-align: center;
+.h1Category {
+    text-align: left;
     margin-bottom: 50px;
+    font-family: 'Playfair Display', serif; 
+    font-size: 2.5em; 
+    color: #333; 
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    position: relative; 
+}
+
+.h1Category::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px; 
+    background-color: #b29477; 
+    margin-top: 10px; 
+    position: absolute;
+    left: 0; 
 }
