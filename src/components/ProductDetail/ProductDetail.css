@@ -1,0 +1,22 @@
+
+
+.h1ProductDetail{
+    margin-bottom: 50px;
+}
+
+.divProductDetailP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divProductDetail{
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+}
+
+
+

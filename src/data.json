@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Silver Necklace",
+        "category": "Necklace",
+        "price": 49.99,
+        "description": "Elegant sterling silver necklace made of 925 sterling silver.",
+        "image": "./img/colliers/collier1.png"
+    },
+    {
+        "id": 2,
+        "name": "Pearl Bracelet",
+        "category": "Bracelet",
+        "price": 29.99,
+        "description": "Handmade bracelet with high-quality glass beads.",
+        "image": "./img/bracelets/bracelet1.png"
+    },
+    {
+        "id": 3,
+        "name": "Pendant Earrings",
+        "category": "Earring",
+        "price": 39.99,
+        "description": "Silver drop earrings with Swarovski crystals.",
+        "image": "./img/bouclesdoreilles/boucledoreille1.png"
+    },
+    {
+        "id": 4,
+        "name": "Rose Gold Ring",
+        "category": "Ring",
+        "price": 79.99,
+        "description": "18-carat rose gold ring with central diamond.",
+        "image": "./img/bagues/bague1.png"
+    },
+    {
+        "id": 5,
+        "name": "Chronograph Watch",
+        "category": "Watch",
+        "price": 199.99,
+        "description": "Men's chronograph watch with leather strap.",
+        "image": "./img/montres/montre1.png"
+    },
+    {
+        "id": 6,
+        "name": "Crystal Pendant Necklace",
+        "category": "Necklace",
+        "price": 59.99,
+        "description": "Necklace with Swarovski crystal pendant.",
+        "image": "./img/colliers/collier2.png"
+    },
+    {
+        "id": 7,
+        "name": "Braided Leather Bracelet",
+        "category": "Bracelet",
+        "price": 19.99,
+        "description": "Braided leather bracelet with magnetic clasp.",
+        "image": "./img/bracelets/bracelet2.png"
+    },
+    {
+        "id": 8,
+        "name": "Hoop Earrings",
+        "category": "Earring",
+        "price": 24.99,
+        "description": "Sterling silver hoop earrings.",
+        "image": "./img/bouclesdoreilles/boucledoreille2.png"
+    },
+    {
+        "id": 9,
+        "name": "Diamond Engagement Ring",
+        "category": "Ring",
+        "price": 149.99,
+        "description": "White gold engagement ring with diamond.",
+        "image": "./img/bagues/bague2.png"
+    },
+    {
+        "id": 10,
+        "name": "Stainless Steel Watch",
+        "category": "Watch",
+        "price": 129.99,
+        "description": "Women's watch with stainless steel strap.",
+        "image": "./img/montres/montre2.png"
+    },
+    {
+        "id": 11,
+        "name": "Pearl Pendant Necklace",
+        "category": "Necklace",
+        "price": 69.99,
+        "description": "Necklace with natural pearl pendant.",
+        "image": "./img/colliers/collier3.png"
+    },
+    {
+        "id": 12,
+        "name": "Sterling Silver Bangle",
+        "category": "Bracelet",
+        "price": 34.99,
+        "description": "925 sterling silver bangle with floral motif.",
+        "image": "./img/bracelets/bracelet3.png"
+    },
+    {
+        "id": 13,
+        "name": "Heart Stud Earrings",
+        "category": "Earring",
+        "price": 14.99,
+        "description": "Heart-shaped stud earrings.",
+        "image": "./img/bouclesdoreilles/boucledoreille3.png"
+    },
+    {
+        "id": 14,
+        "name": "Platinum Wedding Band",
+        "category": "Ring",
+        "price": 199.99,
+        "description": "Platinum wedding band with brushed finish.",
+        "image": "./img/bagues/bague3.png"
+    },
+    {
+        "id": 15,
+        "name": "Analog Watch",
+        "category": "Watch",
+        "price": 79.99,
+        "description": "Analog watch with white dial.",
+        "image": "./img/montres/montre3.png"
+    },
+    {
+        "id": 16,
+        "name": "Gold Cross Pendant Necklace",
+        "category": "Necklace",
+        "price": 89.99,
+        "description": "14-carat gold necklace with cross pendant.",
+        "image": "./img/colliers/collier4.png"
+    },
+    {
+        "id": 17,
+        "name": "Leather Cuff Bracelet",
+        "category": "Bracelet",
+        "price": 49.99,
+        "description": "Genuine leather cuff bracelet with magnetic closure.",
+        "image": "./img/bracelets/bracelet4.png"
+    },
+    {
+        "id": 18,
+        "name": "Silver Drop Earrings",
+        "category": "Earring",
+        "price": 29.99,
+        "description": "925 sterling silver drop earrings.",
+        "image": "./img/bouclesdoreilles/boucledoreille4.png"
+    },
+    {
+        "id": 19,
+        "name": "Sapphire and Diamond Ring",
+        "category": "Ring",
+        "price": 299.99,
+        "description": "Yellow gold ring with oval sapphire and diamonds.",
+        "image": "./img/bagues/bague4.png"
+    },
+    {
+        "id": 20,
+        "name": "Waterproof Dive Watch",
+        "category": "Watch",
+        "price": 299.99,
+        "description": "Waterproof dive watch up to 200 meters.",
+        "image": "./img/montres/montre4.png"
+    }
+]

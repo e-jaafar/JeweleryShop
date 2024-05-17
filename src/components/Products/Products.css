@@ -1,0 +1,37 @@
+
+
+.divProducts{
+    background-color: white;
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 290px;  
+    height: 440px;
+    margin-bottom: 30px;
+    /* border-radius: 10px; */
+    box-shadow: 0 0 10px rgba(148, 148, 148, 0.5);
+
+    &:hover{
+        /* background-color:rgb(249, 214, 150); */
+        cursor: pointer;
+        transform: scale(1.08);
+        box-shadow: 0 0 10px hwb(0 97% 3%);
+        transition: 0.5s;
+
+
+
+    }
+}
+
+.btnProducts{
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color:rgb(249, 214, 150);
+
+}

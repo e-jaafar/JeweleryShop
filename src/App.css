@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(240, 240, 227);
+  /* background-color:rgb(62, 62, 62); */
+  margin:0;
+  padding:0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+img{
+  width: 290px;  
+  height: 280px;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+  margin:10px
+}
+
+/* Pour tout mes NavLink */
+a{
+  color:rgb(69, 69, 69);
+  text-decoration: none;
+}
+
+a:hover{
+  color:rgb(130, 130, 130);
+}
+
+a.active{
+  color:wheat;
+}

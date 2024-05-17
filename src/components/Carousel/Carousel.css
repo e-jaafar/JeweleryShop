@@ -1,0 +1,55 @@
+.slider {
+    height: 50vh;
+}
+/* .thumb{
+    width: 90px;
+} */
+
+.carouselAll{
+    width: 50vw ;
+    /* width: 500px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+ul.thumbs.animated{
+    display: none;
+    }
+
+.carousel .slide .legend{
+    /* width: 50%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color:rgb(249, 214, 150);
+    color:rgb(56, 56, 56);
+    font-size: 15px;
+    width: 50%;
+    left: 70%;
+
+}
+.carousel-status{
+    display: none;
+
+}
+.carouselAllImage img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.h1Carousel{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.carousel .slide {
+    display: inline-block;
+    width: 25%; /* Ajustez la largeur pour le nombre d'images que vous voulez afficher */
+    margin-right: 10px; /* Espace entre chaque diapositive */
+}
+
+.carousel .slider-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
